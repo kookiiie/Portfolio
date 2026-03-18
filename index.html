@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessa Mea Rallos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="logocat.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader-container"><div class="loader"></div></div>
+    </div>
+ 
+    <!-- Animated Background -->
+    <div class="big-circles">
+        <div class="big-circle"></div>
+        <div class="big-circle"></div>
+        <div class="big-circle"></div>
+    </div>
+ 
+    <!-- Intro / Hero -->
+    <section id="intro-home">
+        <div class="intro-slide-wrapper">
+            <div class="smallcircles">
+                <div class="small-circle"></div><div class="small-circle"></div>
+                <div class="small-circle"></div><div class="small-circle"></div>
+                <div class="small-circle"></div><div class="small-circle"></div>
+            </div>
+            <div class="cover-wrapper" id="home-content">
+                <div class="cover-wrapper__container">
+                    <span class="intro-eyebrow">Portfolio</span>
+                    <h1 class="intro-title">Hi! I'm <em>Jessa</em></h1>
+                    <p class="intro-subtitle">IT Student · Multimedia Arts &amp; Animation</p>
+                    <p class="intro-desc">I create digital illustrations and graphic designs.<br>Exploring mobile app development and UI design.</p>
+                    <div class="intro-cta-group">
+                        <button class="btn-cta btn-cta__green trigger">
+                            <span>View My Work ↓</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Main Portfolio -->
+    <section id="main-portfolio" class="portfolio-wrapper">
+ 
+        <nav class="tab-navigation">
+            <button class="nav-tab active" onclick="scrollToSection('illustration')">ART</button>
+            <button class="nav-tab"        onclick="scrollToSection('graphic-design')">DESIGN</button>
+            <button class="nav-tab"        onclick="scrollToSection('coding')">CODE</button>
+            <button class="nav-tab"        onclick="scrollToSection('about')">ABOUT</button>
+            <button class="nav-tab nav-tab--home trigger">HOME</button>
+        </nav>
+ 
+        <div class="portfolio-scroll">
+ 
+            <!-- ── ILLUSTRATION ── -->
+            <div class="page-section" id="illustration">
+                <div class="page-section-inner">
+                    <div class="section-header">
+                        <span class="section-tag">Procreate</span>
+                        <h2 class="section-title">Digital Illustration</h2>
+                    </div>
+                    <div class="gallery">
+ 
+                        <div class="gallery-item" data-img="art.jpg" data-tag="Procreate" data-title="Illustration 1 - Commissioned" data-desc="A dynamic couple illustration in a Scott Pilgrim-inspired style, capturing motion and playful energy through expressive poses and vibrant colors.">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-front-image"><img src="art.jpg" alt="Illustration 1" /></div>
+                                    <div class="card-front-label">Illustration 1 <span>tap to flip</span></div>
+                                </div>
+                                <div class="card-back">
+                                    <div class="card-back-tag">Procreate</div>
+                                    <div class="card-back-title">Illustration 1 - Commissioned</div>
+                                    <div class="card-back-desc">A dynamic couple illustration in a Scott Pilgrim-inspired style, capturing motion and playful energy through expressive poses and vibrant colors.</div>
+                                    <div class="card-back-spacer"></div>
+                                    <button class="card-back-expand" data-expand>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                                        Expand
+                                    </button>
+                                    <div class="card-back-close-hint">tap card to flip back</div>
+                                </div>
+                            </div>
+                        </div>
+ 
+                        <div class="gallery-item" data-img="aki.jpg" data-tag="Procreate" data-title="Illustration 2 - Commissioned" data-desc="A stylized female portrait icon designed for profile use, featuring bold linework and a clean, animated aesthetic.">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-front-image"><img src="aki.jpg" alt="Illustration 2 " /></div>
+                                    <div class="card-front-label">Illustration 2 <span>tap to flip</span></div>
+                                </div>
+                                <div class="card-back">
+                                    <div class="card-back-tag">Procreate</div>
+                                    <div class="card-back-title">Illustration 2 - Commissioned</div>
+                                    <div class="card-back-desc">A stylized female portrait icon designed for profile use, featuring bold linework and a clean, animated aesthetic.</div>
+                                    <div class="card-back-spacer"></div>
+                                    <button class="card-back-expand" data-expand>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                                        Expand
+                                    </button>
+                                    <div class="card-back-close-hint">tap card to flip back</div>
+                                </div>
+                            </div>
+                        </div>
+ 
+                        <div class="gallery-item" data-img="akii.jpg" data-tag="Procreate" data-title="Illustration 3 - Commissioned" data-desc="A stylized male portrait icon created to complement a matching pair, using a cohesive Scott Pilgrim-inspired visual style.">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-front-image"><img src="akii.jpg" alt="Illustration 3" /></div>
+                                    <div class="card-front-label">Illustration 3 <span>tap to flip</span></div>
+                                </div>
+                                <div class="card-back">
+                                    <div class="card-back-tag">Procreate</div>
+                                    <div class="card-back-title">Illustration 3 - Commissioned</div>
+                                    <div class="card-back-desc">A stylized male portrait icon created to complement a matching pair, using a cohesive Scott Pilgrim-inspired visual style.</div>
+                                    <div class="card-back-spacer"></div>
+                                    <button class="card-back-expand" data-expand>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                                        Expand
+                                    </button>
+                                    <div class="card-back-close-hint">tap card to flip back</div>
+                                </div>
+                            </div>
+                        </div>
+ 
+                    </div>
+                </div>
+            </div>
+ 
+            <!-- ── GRAPHIC DESIGN ── -->
+            <div class="page-section page-section--alt" id="graphic-design">
+                <div class="page-section-inner">
+                    <div class="section-header">
+                        <span class="section-tag">Canva</span>
+                        <h2 class="section-title">Graphic Design</h2>
+                    </div>
+                    <div class="gallery">
+ 
+                        <div class="gallery-item" data-img="tua grad tarp.png" data-tag="Canva" data-title="Tarpaulin Design - Commissioned" data-desc="A celebratory tarpaulin design for graduation and NLE success, combining clean layout, bold typography, and a formal yet festive visual style.">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-front-image"><img src="tua grad tarp.png" alt="Tarpaulin" /></div>
+                                    <div class="card-front-label">Tarpaulin Layout <span>tap to flip</span></div>
+                                </div>
+                                <div class="card-back">
+                                    <div class="card-back-tag">Canva</div>
+                                    <div class="card-back-title">Tarpaulin Layout - Commissioned</div>
+                                    <div class="card-back-desc">A celebratory tarpaulin design for passing NLE, combining clean layout, bold typography, and a formal yet festive visual style.</div>
+                                    <div class="card-back-spacer"></div>
+                                    <button class="card-back-expand" data-expand>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                                        Expand
+                                    </button>
+                                    <div class="card-back-close-hint">tap card to flip back</div>
+                                </div>
+                            </div>
+                        </div>
+ 
+                        <div class="gallery-item" data-img="Calling Card.png" data-tag="Canva" data-title="Calling Card" data-desc="A professional calling card layout for an LPG business, focused on clarity, readability, and strong brand presence.">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-front-image"><img src="Calling Card.png" alt="Calling Card" /></div>
+                                    <div class="card-front-label">Calling Card <span>tap to flip</span></div>
+                                </div>
+                                <div class="card-back">
+                                    <div class="card-back-tag">Canva</div>
+                                    <div class="card-back-title">Calling Card - Commissioned</div>
+                                    <div class="card-back-desc">A professional calling card layout for an LPG business, focused on clarity, readability, and strong brand presence.</div>
+                                    <div class="card-back-spacer"></div>
+                                    <button class="card-back-expand" data-expand>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                                        Expand
+                                    </button>
+                                    <div class="card-back-close-hint">tap card to flip back</div>
+                                </div>
+                            </div>
+                        </div>
+ 
+                        <div class="gallery-item" data-video="whackville1.mp4" data-tag="Canva" data-title="Whackville BG Design" data-desc="A custom background design created for the Whackville app, focused on enhancing visual appeal through engaging colors, composition, and a playful atmosphere.">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-front-image card-front-video">
+                                        <video src="whackville1.mp4" muted loop playsinline preload="metadata" class="card-video-preview"></video>
+                                    </div>
+                                    <div class="card-front-label">Whackville <span>tap to flip</span></div>
+                                </div>
+                                <div class="card-back">
+                                    <div class="card-back-tag">Canva</div>
+                                    <div class="card-back-title">Whackville BG Design</div>
+                                    <div class="card-back-desc">A custom background design created for the Whackville app, focused on enhancing visual appeal through engaging colors, composition, and a playful atmosphere.</div>
+                                    <div class="card-back-spacer"></div>
+                                    <button class="card-back-expand" data-expand>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                                        Expand
+                                    </button>
+                                    <div class="card-back-close-hint">tap card to flip back</div>
+                                </div>
+                            </div>
+                        </div>
+ 
+                    </div>
+                </div>
+            </div>
+ 
+            <!-- ── CODING ── -->
+            <div class="page-section" id="coding">
+                <div class="page-section-inner">
+                    <div class="section-header">
+                        <span class="section-tag">Projects</span>
+                        <h2 class="section-title">Coding</h2>
+                    </div>
+                    <div class="gallery">
+ 
+                        <!-- Play to Be Fit — dual mobile videos (user + coach) -->
+                        <div class="gallery-item"
+                             data-video="user.mp4"
+                             data-video2="coach.mp4"
+                             data-video-type="mobile-dual"
+                             data-tag="Flutter · Firebase"
+                             data-title="Play to Be Fit"
+                             data-desc="Starkfitness gym app — member engagement, database integration, interactive tutorials. Role: Full-stack dev & UI/UX designer. Tools: Flutter, Firebase, Android Studio, Figma, Canva">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-front-image card-front-video">
+                                        <!-- ONE preview video on the card thumbnail -->
+                                        <video src="user.mp4" muted loop playsinline preload="metadata" class="card-video-preview"></video>
+                                        <div class="card-video-badge mobile">📱 Mobile</div>
+                                    </div>
+                                    <div class="card-front-label">Play to Be Fit <span>tap to flip</span></div>
+                                </div>
+                                <div class="card-back">
+                                    <div class="card-back-tag">Flutter · Firebase</div>
+                                    <div class="card-back-title">Play to Be Fit</div>
+                                    <div class="card-back-desc">Starkfitness gym app — member engagement, database integration, interactive tutorials. Role: Full-stack dev & UI/UX designer. Tools: Flutter, Firebase, Android Studio, Figma, Canva</div>
+                                    <div class="card-back-spacer"></div>
+                                    <button class="card-back-expand" data-expand>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                                        Watch Demo
+                                    </button>
+                                    <div class="card-back-close-hint">tap card to flip back</div>
+                                </div>
+                            </div>
+                        </div>
+ 
+                        <!-- WhackVille — single mobile video -->
+                        <div class="gallery-item"
+                             data-video="whackville.mp4"
+                             data-video-type="mobile"
+                             data-tag="Android Studio · Java"
+                             data-title="WhackVille"
+                             data-desc="Whack-a-Mole mobile game — UI design, front-end logic, game visuals. Role: UI/UX designer, Front-end dev, Graphic designer. Tools: Android Studio, Java, XML, CSS, Canva">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-front-image card-front-video">
+                                        <video src="whackville1.mp4" muted loop playsinline preload="metadata" class="card-video-preview"></video>
+                                        <div class="card-video-badge mobile">📱 Mobile</div>
+                                    </div>
+                                    <div class="card-front-label">WhackVille <span>tap to flip</span></div>
+                                </div>
+                                <div class="card-back">
+                                    <div class="card-back-tag">Android Studio · Java</div>
+                                    <div class="card-back-title">WhackVille</div>
+                                    <div class="card-back-desc">Whack-a-Mole mobile game — UI design, front-end logic, game visuals. Role: UI/UX designer, Front-end dev, Graphic designer. Tools: Android Studio, Java, XML, CSS, Canva</div>
+                                    <div class="card-back-spacer"></div>
+                                    <button class="card-back-expand" data-expand>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                                        Watch Demo
+                                    </button>
+                                    <div class="card-back-close-hint">tap card to flip back</div>
+                                </div>
+                            </div>
+                        </div>
+ 
+                        <!-- Pixelscape — desktop landscape video -->
+                        <div class="gallery-item"
+                             data-video="pixelscape.mp4"
+                             data-video-type="desktop"
+                             data-tag="Unity · Procreate"
+                             data-title="Pixelscape Adventure"
+                             data-desc="2D platformer inspired by Mario — map choices, interactive game elements. Role: Full-stack game dev, UI/UX designer, Game designer. Tools: Unity, Procreate, Unity Asset Store">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-front-image card-front-video">
+                                        <video src="pixelscape.mp4" muted loop playsinline preload="metadata" class="card-video-preview"></video>
+                                        <div class="card-video-badge desktop">🖥️ Desktop</div>
+                                    </div>
+                                    <div class="card-front-label">Pixelscape Adventure <span>tap to flip</span></div>
+                                </div>
+                                <div class="card-back">
+                                    <div class="card-back-tag">Unity · Procreate</div>
+                                    <div class="card-back-title">Pixelscape Adventure</div>
+                                    <div class="card-back-desc">2D platformer inspired by Mario — map choices, interactive game elements. Role: Full-stack game dev, UI/UX designer, Game designer. Tools: Unity, Procreate, Unity Asset Store</div>
+                                    <div class="card-back-spacer"></div>
+                                    <button class="card-back-expand" data-expand>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                                        Watch Demo
+                                    </button>
+                                    <div class="card-back-close-hint">tap card to flip back</div>
+                                </div>
+                            </div>
+                        </div>
+ 
+                    </div>
+                </div>
+            </div>
+ 
+            <!-- ── ABOUT ME ── -->
+            <div class="page-section page-section--about" id="about">
+                <div class="page-section-inner">
+ 
+                    <div class="section-header">
+                        <span class="section-tag">About</span>
+                        <h2 class="section-title">Jessa Mea Rallos</h2>
+                    </div>
+ 
+                    <div class="about-card about-me-wide">
+                        <div class="about-me-photo">
+                            <img src="image.png" alt="Jessa Mea Rallos" />
+                        </div>
+                        <div class="about-me-text">
+                            <p>I'm an IT student specializing in Multimedia Arts and Animation. I enjoy creating digital illustrations and graphic designs while also exploring mobile application development and UI design.</p>
+                            <p>I love bringing ideas to life through visuals — whether it's a character illustration made in Procreate or a layout design built in Canva.</p>
+                            <a href="Resume_Rallos.pdf" class="resume-btn" target="_blank">Download Resume ↓</a>
+                        </div>
+                    </div>
+ 
+                    <!-- Creative Tools Marquee -->
+                    <div class="about-card skills-marquee-card">
+                        <h2>Creative Tools</h2>
+                        <div class="marquee-track">
+                            <div class="marquee-inner marquee-ltr" id="marquee-creative">
+                                <div class="skill-icon-item"><img src="Procreate_icon.png" alt="Procreate"/></div>
+                                <div class="skill-icon-item"><img src="filmora_logo.png" alt="Filmora"/></div>
+                                <div class="skill-icon-item"><img src="capcut-logo.jpg" alt="CapCut"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Photoshop"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg" alt="Premiere Pro"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"/></div>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <!-- Development Marquee -->
+                    <div class="about-card skills-marquee-card">
+                        <h2>Development</h2>
+                        <div class="marquee-track">
+                            <div class="marquee-inner marquee-rtl" id="marquee-dev">
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" alt="Android Studio"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart"/></div>
+                                <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL"/></div>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <!-- Footer -->
+                    <footer class="about-footer">
+                        <div class="footer-content">
+                            <div class="footer-section">
+                                <h3>Connect</h3>
+                                <div class="footer-social-row">
+                                    <a href="https://www.linkedin.com/in/jessa-mea-rallos/" class="footer-social-link" title="LinkedIn" aria-label="LinkedIn">
+                                        <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                                    </a>
+                                    <a href="viber://chat?number=09392003380" class="footer-social-link" title="Viber" aria-label="Viber">
+                                        <svg viewBox="0 0 24 24"><path d="M11.4 0C5.5.3.6 5.6.6 11.6c0 2.5.8 4.9 2.2 6.8L.6 24l5.7-1.8c1.8 1.1 3.8 1.7 5.9 1.7 6.1 0 11-4.8 11.2-10.9C23.6 6.8 19.7 1.7 11.4 0zm3.9 17.5s-.7.2-1.1.1c-.3-.1-.8-.4-1.7-1.2-2.8-2.6-3.7-5.6-3.8-5.9-.1-.3-.7-1.8.4-3 .3-.4.7-.5 1-.5h.5c.3 0 .6.1.9.8l.8 1.8c.2.4-.1.7-.3.9-.1.1-.3.3-.2.5.4 1 1.4 2.4 2.4 3.2.2.2.5.3.7.1l.5-.6c.2-.3.5-.3.8-.1l2 1.1c.2.1.3.5 0 .8z"/></svg>
+                                    </a>
+                                    <a href="https://www.facebook.com/jssaiii" class="footer-social-link" title="Facebook" aria-label="Facebook">
+                                        <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer-section">
+                                <h3>Get In Touch</h3>
+                                <div style="display:flex;flex-direction:column;gap:0.75rem;">
+                                    <a href="mailto:rallos.jessal@gmail.com" class="footer-contact-item">
+                                        <span class="footer-contact-icon">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                                        </span>
+                                        rallos.jessal@gmail.com
+                                    </a>
+                                    <a href="tel:09392003380" class="footer-contact-item">
+                                        <span class="footer-contact-icon">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.69 3.42 2 2 0 0 1 3.65 1.25h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9A16 16 0 0 0 15 16.09l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                                        </span>
+                                        09392003380
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-bottom">
+                            <p>© 2025 Jessa. ᓚ₍⑅^..^₎♡₍^. .^₎⟆</p>
+                        </div>
+                    </footer>
+ 
+                </div>
+            </div>
+ 
+        </div><!-- /.portfolio-scroll -->
+ 
+        <!-- Dim overlay — visual only, never blocks clicks -->
+        <div class="card-expand-overlay" id="cardOverlay"></div>
+ 
+        <!-- Expanded modal -->
+        <div class="card-modal" id="cardModal">
+            <div class="card-modal-inner" id="cardModalInner">
+                <div class="card-modal-image-wrap" id="cardModalImageWrap">
+                    <button class="card-modal-close" id="cardModalClose" aria-label="Close">✕</button>
+                </div>
+                <div class="card-modal-divider"></div>
+                <div class="card-modal-content">
+                    <span class="card-modal-tag" id="cardModalTag"></span>
+                    <h3 class="card-modal-title" id="cardModalTitle"></h3>
+                    <p class="card-modal-desc" id="cardModalDesc"></p>
+                </div>
+            </div>
+        </div>
+ 
+    </section>
+ 
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+ 
+        // ── Preloader ──
+        setTimeout(() => document.body.classList.add('loaded'), 900);
+ 
+        const slideWrapper = document.querySelector('.intro-slide-wrapper');
+        const portfolioEl  = document.querySelector('.portfolio-wrapper');
+        const smallCircles = document.querySelectorAll('.small-circle');
+        let isOpen = false;
+ 
+        function openAnimation() {
+            isOpen = true;
+            smallCircles.forEach(c => { c.style.transition = 'transform 0.4s ease'; c.style.transform = 'scale(0)'; });
+            slideWrapper.style.transition = 'height 0.8s cubic-bezier(0.93,0.035,0.35,0.815), width 0.8s cubic-bezier(0.93,0.035,0.35,0.815), top 0.8s cubic-bezier(0.93,0.035,0.35,0.815), left 0.8s cubic-bezier(0.93,0.035,0.35,0.815), border-radius 0.8s cubic-bezier(0.93,0.035,0.35,0.815)';
+            slideWrapper.style.height = '100%';
+            slideWrapper.style.width  = '100%';
+            slideWrapper.style.top    = '0%';
+            slideWrapper.style.left   = '0%';
+            slideWrapper.style.borderRadius = '0px';
+ 
+            setTimeout(() => {
+                slideWrapper.style.transition = 'top 0.8s cubic-bezier(0.93,0.035,0.35,0.815)';
+                slideWrapper.style.top = '-100%';
+                portfolioEl.classList.add('is-open');
+                portfolioEl.style.transition = 'top 1.0s cubic-bezier(0.93,0.035,0.35,0.815)';
+                portfolioEl.style.top = '0%';
+ 
+                setTimeout(() => {
+                    document.body.classList.add('portfolio-open');
+                    document.querySelector('.tab-navigation').classList.add('visible');
+                    initScrollObserver();
+                    const firstSection = document.querySelector('.page-section');
+                    if (firstSection) {
+                        firstSection.classList.add('in-view');
+                        setTimeout(() => {
+                            firstSection.querySelectorAll('.gallery-item').forEach((card, i) => {
+                                const inner = card.querySelector('.card-inner');
+                                if (inner) inner.style.transitionDelay = (i * 0.15) + 's';
+                                card.classList.add('fade-in');
+                                setTimeout(() => {
+                                    if (inner) inner.style.transitionDelay = '0s';
+                                }, (i * 0.15 + 0.6) * 1000);
+                            });
+                        }, 80);
+                    }
+                }, 1050);
+            }, 850);
+        }
+ 
+        function closeAnimation() {
+            isOpen = false;
+            portfolioEl.classList.remove('is-open');
+            document.body.classList.remove('portfolio-open');
+            document.querySelector('.tab-navigation').classList.remove('visible');
+            portfolioEl.style.transition = 'top 1.0s cubic-bezier(0.815,0.035,0.35,0.930)';
+            portfolioEl.style.top = '100%';
+ 
+            setTimeout(() => {
+                slideWrapper.style.transition = 'height 0.8s cubic-bezier(0.815,0.035,0.35,0.930), width 0.8s cubic-bezier(0.815,0.035,0.35,0.930), top 0.8s cubic-bezier(0.815,0.035,0.35,0.930), left 0.8s cubic-bezier(0.815,0.035,0.35,0.930), border-radius 0.8s cubic-bezier(0.815,0.035,0.35,0.930)';
+                slideWrapper.style.top    = '5%';
+                slideWrapper.style.left   = '5%';
+                slideWrapper.style.height = '90%';
+                slideWrapper.style.width  = '90%';
+                slideWrapper.style.borderRadius = '24px';
+ 
+                setTimeout(() => {
+                    smallCircles.forEach(c => { c.style.transition = 'transform 0.4s cubic-bezier(0.34,1.56,0.64,1)'; c.style.transform = 'scale(1)'; });
+                    document.querySelector('.portfolio-scroll').scrollTop = 0;
+                }, 850);
+            }, 1050);
+        }
+ 
+        document.addEventListener('click', function (e) {
+            const btn = e.target.closest('.trigger');
+            if (!btn) return;
+            isOpen ? closeAnimation() : openAnimation();
+        });
+ 
+        // ── Scroll & tab spy ──
+        const sections     = ['illustration', 'graphic-design', 'coding', 'about'];
+        const tabs         = document.querySelectorAll('.nav-tab:not(.nav-tab--home)');
+        const pageSections = document.querySelectorAll('.page-section');
+        const scroller     = document.querySelector('.portfolio-scroll');
+ 
+        window.scrollToSection = function(id) {
+            const el = document.getElementById(id);
+            if (el && scroller) scroller.scrollTo({ top: el.offsetTop, behavior: 'smooth' });
+        };
+ 
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                const sec    = entry.target;
+                const secTop = sec.getBoundingClientRect().top;
+                const cards  = sec.querySelectorAll('.gallery-item');
+ 
+                if (entry.isIntersecting) {
+                    sec.classList.add('in-view');
+                    sec.classList.remove('out-above');
+                    setTimeout(() => {
+                        cards.forEach((card, i) => {
+                            const inner = card.querySelector('.card-inner');
+                            if (inner) inner.style.transitionDelay = (i * 0.15) + 's';
+                            card.classList.add('fade-in');
+                            setTimeout(() => {
+                                if (inner) inner.style.transitionDelay = '0s';
+                            }, (i * 0.15 + 0.6) * 1000);
+                        });
+                    }, 60);
+                    const id = sec.id;
+                    tabs.forEach((tab, i) => tab.classList.toggle('active', sections[i] === id));
+                } else {
+                    if (secTop < 0) {
+                        sec.classList.remove('in-view');
+                        sec.classList.add('out-above');
+                    } else {
+                        sec.classList.remove('in-view');
+                        sec.classList.remove('out-above');
+                    }
+                    cards.forEach(card => {
+                        const inner = card.querySelector('.card-inner');
+                        if (inner) inner.style.transitionDelay = '0s';
+                        card.classList.remove('fade-in');
+                        card.classList.remove('flipped');
+                    });
+                }
+            });
+        }, { root: scroller, threshold: 0.15, rootMargin: '0px 0px -5% 0px' });
+ 
+        pageSections.forEach(sec => sectionObserver.observe(sec));
+ 
+        function initScrollObserver() {
+            scroller.dispatchEvent(new Event('scroll'));
+        }
+ 
+        // Fallback: force all cards visible if observer never fires (file:// quirk)
+        setTimeout(() => {
+            document.querySelectorAll('.gallery-item').forEach((card) => {
+                if (!card.classList.contains('fade-in')) {
+                    const inner = card.querySelector('.card-inner');
+                    if (inner) inner.style.transitionDelay = '0s';
+                    card.classList.add('fade-in');
+                }
+            });
+            document.querySelectorAll('.page-section').forEach(sec => {
+                if (!sec.classList.contains('in-view')) sec.classList.add('in-view');
+            });
+        }, 2000);
+ 
+        // ══════════════════════════════════════════
+        //  MODAL SYSTEM
+        // ══════════════════════════════════════════
+ 
+        const overlay    = document.getElementById('cardOverlay');
+        const modal      = document.getElementById('cardModal');
+        const imageWrap  = document.getElementById('cardModalImageWrap');
+        const modalClose = document.getElementById('cardModalClose');
+        const modalTag   = document.getElementById('cardModalTag');
+        const modalTitle = document.getElementById('cardModalTitle');
+        const modalDesc  = document.getElementById('cardModalDesc');
+        const modalInner = document.getElementById('cardModalInner');
+ 
+        let activeCard = null;
+        let modalOpen  = false;
+ 
+        // Pause & remove ALL media from imageWrap, keeping the close button
+        function clearModalMedia() {
+            imageWrap.querySelectorAll('video').forEach(v => {
+                v.pause();
+                v.src = '';
+                v.load();
+            });
+            Array.from(imageWrap.children).forEach(el => {
+                if (el.id !== 'cardModalClose') el.remove();
+            });
+        }
+ 
+        // ── Close modal ──
+        function closeModal() {
+            if (!modalOpen) return;
+            modalOpen = false;
+            modal.classList.remove('active');
+            overlay.classList.remove('active');
+            clearModalMedia();
+            modalInner.classList.remove('is-mobile', 'is-desktop', 'is-mobile-dual');
+        }
+ 
+        // ── Open modal ──
+        function openModal(card) {
+            const imgSrc    = card.dataset.img;
+            const videoSrc  = card.dataset.video;
+            const videoSrc2 = card.dataset.video2;        // optional second video
+            const videoType = card.dataset.videoType || 'desktop';
+            const emoji     = card.dataset.emoji;
+            const tag       = card.dataset.tag   || '';
+            const title     = card.dataset.title || '';
+            const desc      = card.dataset.desc  || '';
+ 
+            clearModalMedia();
+            modalInner.classList.remove('is-mobile', 'is-desktop', 'is-mobile-dual');
+ 
+            if (videoSrc) {
+                imageWrap.classList.remove('is-emoji');
+ 
+                // Apply correct modal width class
+                if (videoType === 'mobile-dual') {
+                    modalInner.classList.add('is-mobile-dual');
+                } else if (videoType === 'mobile') {
+                    modalInner.classList.add('is-mobile');
+                } else {
+                    modalInner.classList.add('is-desktop');
+                }
+ 
+                if (videoSrc2) {
+                    // ── TWO videos side by side ──
+                    const wrapper = document.createElement('div');
+                    wrapper.className = 'card-modal-videos';
+ 
+                    [videoSrc, videoSrc2].forEach(src => {
+                        const vid = document.createElement('video');
+                        vid.src         = src;
+                        vid.controls    = true;
+                        vid.autoplay    = true;
+                        vid.loop        = true;
+                        vid.muted       = false;
+                        vid.playsInline = true;
+                        vid.preload     = 'auto';
+                        wrapper.appendChild(vid);
+                    });
+ 
+                    imageWrap.insertBefore(wrapper, modalClose);
+                    setTimeout(() => {
+                        wrapper.querySelectorAll('video').forEach(v => v.play().catch(() => {}));
+                    }, 100);
+ 
+                } else {
+                    // ── SINGLE video ──
+                    const vid = document.createElement('video');
+                    vid.src         = videoSrc;
+                    vid.controls    = true;
+                    vid.autoplay    = true;
+                    vid.loop        = true;
+                    vid.muted       = false;
+                    vid.playsInline = true;
+                    vid.preload     = 'auto';
+                    imageWrap.insertBefore(vid, modalClose);
+                    setTimeout(() => vid.play().catch(() => {}), 100);
+                }
+ 
+            } else if (imgSrc) {
+                imageWrap.classList.remove('is-emoji');
+                const img = document.createElement('img');
+                img.src = imgSrc;
+                img.alt = title;
+                imageWrap.insertBefore(img, modalClose);
+ 
+            } else if (emoji) {
+                imageWrap.classList.add('is-emoji');
+                const span = document.createElement('span');
+                span.className   = 'modal-emoji';
+                span.textContent = emoji;
+                imageWrap.insertBefore(span, modalClose);
+            }
+ 
+            modalTag.textContent   = tag;
+            modalTitle.textContent = title;
+            modalDesc.textContent  = desc;
+ 
+            modalOpen = true;
+            overlay.classList.add('active');
+            modal.classList.add('active');
+        }
+ 
+        // ── Unified click handler ──
+        document.addEventListener('click', function(e) {
+ 
+            // 1. Close button
+            if (e.target.closest('#cardModalClose')) {
+                e.stopPropagation();
+                closeModal();
+                return;
+            }
+ 
+            // 2. Click inside modal — do nothing
+            if (e.target.closest('#cardModalInner')) {
+                return;
+            }
+ 
+            // 3. Click on modal backdrop — close
+            if (e.target.closest('#cardModal')) {
+                closeModal();
+                return;
+            }
+ 
+            // 4. Expand / Watch Demo button
+            const expandBtn = e.target.closest('[data-expand]');
+            if (expandBtn) {
+                e.stopPropagation();
+                const card = expandBtn.closest('.gallery-item');
+                if (card) openModal(card);
+                return;
+            }
+ 
+            // 5. Card flip (modal must be closed)
+            if (modalOpen) return;
+            const card = e.target.closest('.gallery-item');
+            if (!card) return;
+ 
+            if (activeCard && activeCard !== card) {
+                activeCard.classList.remove('flipped');
+            }
+            card.classList.toggle('flipped');
+            activeCard = card.classList.contains('flipped') ? card : null;
+        });
+ 
+        // Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeModal();
+        });
+ 
+        // ── Card hover: play single preview video ──
+        document.querySelectorAll('.gallery-item').forEach(card => {
+            const preview = card.querySelector('.card-video-preview');
+            if (preview) {
+                card.addEventListener('mouseenter', () => preview.play().catch(() => {}));
+                card.addEventListener('mouseleave', () => { preview.pause(); preview.currentTime = 0; });
+            }
+        });
+ 
+        // ── Marquee ──
+        function initMarquee(inner) {
+            inner.querySelectorAll('[data-clone]').forEach(c => c.remove());
+            const originals = Array.from(inner.children);
+            if (!originals.length) return;
+            const gap    = parseFloat(getComputedStyle(inner).gap) || 10.4;
+            const itemW  = originals[0].getBoundingClientRect().width;
+            const setW   = originals.length * (itemW + gap);
+            const needed = Math.ceil((window.innerWidth * 2) / setW) + 1;
+            for (let i = 0; i < needed; i++) {
+                originals.forEach(child => {
+                    const clone = child.cloneNode(true);
+                    clone.setAttribute('data-clone', '1');
+                    inner.appendChild(clone);
+                });
+            }
+            inner.style.setProperty('--marquee-offset', `-${setW}px`);
+        }
+ 
+        ['marquee-creative', 'marquee-dev'].forEach(id => {
+            const el = document.getElementById(id);
+            if (el) initMarquee(el);
+        });
+ 
+    });
+    </script>
+</body>
+</html>
